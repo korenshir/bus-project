@@ -120,10 +120,9 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   height: 80px;
-  transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(1, 4, 136, 0.9);
+  background: #bbdfbc;
 }
 
 #header.header-transparent {
@@ -131,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(1, 4, 136, 0.9);
+  background: #bbdfbc;
   height: 60px;
 }
 
@@ -309,7 +308,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(1, 3, 91, 0.9);
+  background: #bbdfbc;
   transition: 0.3s;
   z-index: 999;
 }
@@ -341,11 +340,11 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #0205a1;
+  color:#bbdfbc;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #3f43fd;
+  color: #bbdfbc;
 }
 
 .navbar-mobile .getstarted {
@@ -396,7 +395,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(2, 5, 161, 0.91);
+  background: #bbdfbc;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -628,7 +627,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #010483;
+  color: #abd7ab;
 }
 
 /*--------------------------------------------------------------
@@ -701,7 +700,7 @@ section {
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #010483;
+  color: #cce7cd;
   margin-bottom: 15px;
 }
 

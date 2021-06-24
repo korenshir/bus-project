@@ -33,9 +33,10 @@
     
     <head>
       <style>
+        
         .center {
           text-align: right;
-          margin-right: 40%;
+          font-family:'Calibri';
         }
         .map-container-6{
           overflow:hidden;
@@ -99,9 +100,10 @@
     
           <nav id="navbar" class="navbar">
             <ul>
-              <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-              <li><a class="nav-link scrollto" href="#about">About</a></li>
-              <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+              <li><a class="nav-link scrollto" style="font-family:'Calibri';" href="#contact">צור קשר</a></li>
+              <li><a class="nav-link scrollto" style="font-family:'Calibri';" href="#about">חיפוש</a></li>
+              <li><a class="nav-link scrollto active" style="font-family:'Calibri';" href="#hero">בית</a></li>
+
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
           </nav><!-- .navbar -->
@@ -115,18 +117,18 @@
         <div class="container">
           <div class="row justify-content-between">
             <div class="col-lg-7 pt-5 pt-lg-0 order-1 order-lg-2 d-flex align-items-center">
-              <div data-aos="zoom-out">
+              <div data-aos="zoom-out" >
                 <h1><span>Bus.co.il</span></h1>
-                <h1>תחבורה ציבורית נגישה לכולם</h1>
+                <h1 style="font-family:'Calibri';">תחבורה ציבורית נגישה לכולם</h1>
 
-                <h2>תכנן את הנסיעה הבאה שלך איתנו</h2>
+                <h2 style="font-family:'Calibri';">תכנן את הנסיעה הבאה שלך איתנו</h2>
                 <div class="text-center text-lg-start">
-                  <a href="#about" class="btn-get-started scrollto">בואו נתחיל</a>
+                  <a style="font-family:'Calibri';" href="#about" class="btn-get-started scrollto">בואו נתחיל</a>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 order-2 order-lg-1 hero-img" data-aos="zoom-out" data-aos-delay="300">
-              <img src="assets/img/bus_2.png" class="img-fluid animated" alt="">
+              <img src="assets/img/bus_pass2.webp" class="img-fluid animated" alt="">
             </div>
           </div>
         </div>
@@ -147,94 +149,94 @@
         </svg>
     
       </section><!-- End First page -->
-       <!-- ======= Search Section ======= -->
+       <!-- ======= Contact Section ======= -->
        <section id="contact" class="contact">
-        <div class="container">
+        <div class="container center">
   
           <div class="section-title" data-aos="fade-up">
-            <h2>Contact</h2>
-            <p>Contact Us</p>
+            <h2 style="font-family:'Calibri';">מצאת בעיה? ספר לנו</h2>
+            <p style="font-family:'Calibri';">צור קשר</p>
           </div>
   
           <div class="row">
   
-            <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
-              <div class="info">
-                <div class="address">
-                  <i class="bi bi-geo-alt"></i>
-                  <h4>Location:</h4>
-                  <p>A108 Adam Street, New York, NY 535022</p>
-                </div>
-  
-                <div class="email">
-                  <i class="bi bi-envelope"></i>
-                  <h4>Email:</h4>
-                  <p>info@example.com</p>
-                </div>
-  
-                <div class="phone">
-                  <i class="bi bi-phone"></i>
-                  <h4>Call:</h4>
-                  <p>+1 5589 55488 55s</p>
-                </div>
-  
-              </div>
-  
-            </div>
-  
-            <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
-  
+            <div class="col-lg-8 mt-2 mt-lg-2" data-aos="fade-left" data-aos-delay="200">
               <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                 <div class="row">
                   <div class="col-md-6 form-group">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                    <input type="text" name="name" class="form-control center" id="name" placeholder="שם" required>
                   </div>
                   <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                    <input type="email" class="form-control center" name="email" id="email" placeholder="אימייל" required>
                   </div>
                 </div>
-                <div class="form-group mt-3">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <div class="">
+                  <input type="text" class="form-control center" name="subject" id="subject" placeholder="נושא" required>
                 </div>
                 <div class="form-group mt-3">
-                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                  <textarea class="form-control center" name="message" rows="5" placeholder="הודעה" required></textarea>
                 </div>
                 <div class="my-3">
                   <div class="loading">Loading</div>
                   <div class="error-message"></div>
                   <div class="sent-message">Your message has been sent. Thank you!</div>
                 </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
+                <div class="text-center center"><button type="submit">שלח</button></div>
               </form>
+            </div>
+
+            <div class="col-lg-3" data-aos="fade-right" data-aos-delay="100">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4 style="font-family:'Calibri';">:כתובת</h4>
+                  <p>רוטשילד 72, תל אביב</p>
+                </div>
+  
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4 style="font-family:'Calibri';">:אימייל</h4>
+                  <p>info@example.com</p>
+                </div>
+  
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4 style="font-family:'Calibri';">:טלפון</h4>
+                  <p>+972 55488 5225</p>
+                </div>
+  
+              </div>
   
             </div>
+  
+          
   
           </div>
   
         </div>
-      </section><!-- End Search Section -->
+      </section><!-- End Contact Section -->
       <main id="main">
     
-        <!-- ======= About Section ======= -->
+        <!-- ======= Search Section ======= -->
         <section id="about" class="about">
           <div class="container-fluid center">
     
             <div class="row">
-              <div class="col-xl-5 col-lg-6  d-flex align-text-center justify-content-center " data-aos="fade-right">
-                <img src="assets/img/bus_1.png" class="img-fluid animated" alt="">
+              <div class="col-xl-5 col-lg-6" data-aos="fade-right">
+                <img src="assets/img/bus_stops.jpg" style="width: 100%;padding-top:20%;" alt="">
 
               </div>
  
               <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
-                <h3 class="align-text-right">תכנון הנסיעה הבאה שלך</h3>
-                <p>הכנס מוצא ויעד ונמצא את המסלול האידיאלי עבורך</p>
+                <h3 style="font-family:'Calibri';" class="align-text-right">תכנון הנסיעה הבאה שלך</h3>
+                <p style="font-family:'Calibri';">הכנס מוצא ויעד ונמצא את המסלול האידיאלי עבורך</p>
     
                 <div class="col-lg-10 mt-8 mt-lg-8" data-aos="fade-left" data-aos-delay="10">
   
                   <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                     <div class="row">
 
-                     <h3 style="font-size: medium;"><i class="ri-calendar-todo-line" style="color: #e80368;"></i> ?מתי</h3>
+                     <h3 style="font-size: medium;font-family:'Calibri';"><i class="ri-calendar-todo-line" style="color: #e80368;"></i> ?מתי</h3>
                      
                       <div class="col-md-6 form-group">
                         <input type="time" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -242,14 +244,14 @@
                       <div class="col-md-6 form-group mt-3 mt-md-0">
                         <input type="date" class="form-control" name="email" id="email" placeholder="Your Email" required>
                       </div>
-                      <h3 style="font-size: medium;"><i class="ri-map-pin-line" style="color: #e80368;"></i> מוצא</h3> 
+                      <h3 style="font-size: medium;font-family:'Calibri';"><i class="ri-map-pin-line" style="color: #e80368;"></i> מוצא</h3> 
                       <div class="col-md-6 form-group">
                         <input type="text" name="name" class="form-control" id="name" placeholder="כתובת" required>
                       </div>
                       <div class="col-md-6 form-group mt-3 mt-md-0">
                         <input type="select" class="form-control" name="email" id="email" placeholder="עיר" required>
                       </div>
-                      <h3 style="font-size: medium;"><i class="ri-footprint-line" style="color: #e80368;"></i> יעד</h3> 
+                      <h3 style="font-size: medium;font-family:'Calibri';""><i class="ri-footprint-line" style="color: #e80368;"></i> יעד</h3> 
                       <div class="col-md-6 form-group">
                         <input type="text" name="name" class="form-control" id="name" placeholder="כתובת" required>
                       </div>
@@ -258,8 +260,8 @@
                       </div>
                     </div>
             <br/>
-                    <div class="text-center"><button style="background-color: #ffa76e;" type="submit"><h3 style="font-size: medium;"><i class="ri-search-line"></i>&nbsp;חפש&nbsp;</h3></button></div>
-                  </form>
+            <div class="text-center"><button style="background-color: #ffa76e;" type="submit"><h3 style="font-size: medium;font-family:'Calibri';"><i class="ri-search-line"></i>&nbsp;חפש&nbsp;</h3></button></div>
+          </form>
       
                 </div>
               </div>
@@ -268,18 +270,18 @@
           </div>
         </section><!-- End About Section -->
     
-        <!--map-->
-        <!--Section: Contact v.1-->
+        <!--Empty map-->
+
 <section class="section pb-5">
  
   <div class="row">
 
     <div class="col-lg-8">
 
-      <!--Google map-->
+      <!--Map-->
       <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
-        <iframe src="https://maps.google.com/maps?q=new%20delphi&t=&z=13&ie=UTF8&iwloc=&output=embed"
-          frameborder="0" style="border:0" allowfullscreen></iframe>
+        <img src="assets/img/map_empty.JPG"
+          frameborder="0" style="width: 100%;"></img>
       </div>
 
       <br>
@@ -291,45 +293,41 @@
       <!--Form with header-->
       <div class="card">
 
-        <div class="card-body">
+        <div class="card-body" style="background-color: #bbdfbc;">
           <!--Header-->
-          <div class="form-header blue accent-1">
-            <h3><i class="fas fa-envelope"></i> Write to us:</h3>
+          <div class="form-header blue center">
+            <h2 style="font-family:'Calibri';"><i class="fas fa-envelope"></i> תכנון נסיעה </h2>
           </div>
-
-          <p>We'll write rarely, but with only the best content.</p>
-          <br>
-
           <!--Body-->
-          <div class="row">
+          <div class="row center">
 
-            <h3 style="font-size: medium;"><i class="ri-calendar-todo-line" style="color: #e80368;"></i> ?מתי</h3>
+            <h3 style="font-size: medium;font-family:'Calibri';"><i class="ri-calendar-todo-line" style="color: #e80368;"></i> ?מתי</h3>
             
              <div class="col-md-6 form-group">
-               <input type="time" name="name" class="form-control" id="name" placeholder="Your Name" required>
+               <input type="time" name="name" class="form-control center" id="name" placeholder="Your Name" required>
              </div>
              <div class="col-md-6 form-group mt-3 mt-md-0">
-               <input type="date" class="form-control" name="email" id="email" placeholder="Your Email" required>
+               <input type="date" class="form-control center" name="email" id="email" placeholder="Your Email" required>
              </div>
-             <h3 style="font-size: medium;"><i class="ri-map-pin-line" style="color: #e80368;"></i> מוצא</h3> 
+             <h3 style="font-size: medium;font-family:'Calibri';"><i class="ri-map-pin-line" style="color: #e80368;"></i> מוצא</h3> 
              <div class="col-md-6 form-group">
-               <input type="text" name="name" class="form-control" id="name" placeholder="כתובת" required>
+               <input type="text" name="name" class="form-control center" id="name" placeholder="כתובת" required>
              </div>
              <div class="col-md-6 form-group mt-3 mt-md-0">
-               <input type="select" class="form-control" name="email" id="email" placeholder="עיר" required>
+               <input type="select" class="form-control center" name="email" id="email" placeholder="עיר" required>
              </div>
-             <h3 style="font-size: medium;"><i class="ri-footprint-line" style="color: #e80368;"></i> יעד</h3> 
+             <h3 style="font-size: medium;font-family:'Calibri';"><i class="ri-footprint-line" style="color: #e80368;"></i> יעד</h3> 
              <div class="col-md-6 form-group">
-               <input type="text" name="name" class="form-control" id="name" placeholder="כתובת" required>
+               <input type="text" name="name" class="form-control center" id="name" placeholder="כתובת" required>
              </div>
              <div class="col-md-6 form-group mt-3 mt-md-0">
-               <input type="select" class="form-control" name="email" id="email" placeholder="עיר" required>
+               <input type="select" class="form-control center" name="email" id="email" placeholder="עיר" required>
              </div>
            </div>
       
 
           <div class="text-center mt-4">
-            <button class="btn btn-light-blue">Submit</button>
+            <div class="btn-get-started scrollto"><button style="background-color: #ffa76e;" type="submit"><h3 style="font-size: medium;font-family:'Calibri';"><i class="ri-search-line"></i>&nbsp;חפש&nbsp;</h3></button></div>
           </div>
 
         </div>
@@ -338,6 +336,77 @@
     </div>
   </div>
 </section>
+
+        <!--full map-->
+
+        <section class="section pb-5">
+ 
+          <div class="row">
+        
+            <div class="col-lg-8">
+        
+              <!--Map-->
+              <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 500px">
+                <img src="assets/img/map1.JPG"
+                  frameborder="0" style="width: 100%;"></img>
+              </div>
+        
+              <br>
+              <!--Buttons-->
+            </div>
+            <!--Grid column-->
+            <div class="col-lg-3 mb-3">
+        
+              <!--Form with header-->
+              <div class="card">
+        
+                <div class="card-body" style="background-color: #bbdfbc;">
+                  <!--Header-->
+                  <div class="form-header blue center">
+                    <h2 style="font-family:'Calibri';"><i class="fas fa-envelope"></i> תכנון נסיעה </h2>
+                  </div>
+                  <!--Body-->
+                  <div class="row center">
+        
+                    <h3 style="font-size: medium;"><i class="ri-calendar-todo-line" style="color: #e80368;"></i> ?מתי</h3>
+                    
+                     <div class="col-md-6 form-group">
+                       <input type="time" name="name" class="form-control center" id="name" placeholder="Your Name" required>
+                     </div>
+                     <div class="col-md-6 form-group mt-3 mt-md-0">
+                       <input type="date" class="form-control center" name="email" id="email" placeholder="Your Email" required>
+                     </div>
+                     <h3 style="font-size: medium;"><i class="ri-map-pin-line" style="color: #e80368;"></i> מוצא</h3> 
+                     <div class="col-md-6 form-group">
+                       <input type="text" name="name" class="form-control center" id="name" placeholder="כתובת" required>
+                     </div>
+                     <div class="col-md-6 form-group mt-3 mt-md-0">
+                       <input type="select" class="form-control center" name="email" id="email" placeholder="עיר" required>
+                     </div>
+                     <h3 style="font-size: medium;"><i class="ri-footprint-line" style="color: #e80368;"></i> יעד</h3> 
+                     <div class="col-md-6 form-group">
+                       <input type="text" name="name" class="form-control center" id="name" placeholder="כתובת" required>
+                     </div>
+                     <div class="col-md-6 form-group mt-3 mt-md-0">
+                       <input type="select" class="form-control center" name="email" id="email" placeholder="עיר" required>
+                     </div>
+                   </div>
+              
+        
+                  <div class="text-center mt-4">
+                    <div class="text-center"><button style="background-color: #ffa76e;" type="submit"><h3 style="font-size: medium;font-family:'Calibri';"><i class="ri-search-line"></i>&nbsp;חפש&nbsp;</h3></button></div>
+                  </div>
+                  <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 100px">
+                    <img src="assets/img/directions1.JPG"
+                      frameborder="0" style="width: 100%;"></img>
+                  </div>
+                </div>
+        
+              </div>
+            </div>
+          </div>
+        </section>
+
 </main>
 
     
